@@ -12,9 +12,9 @@ def main(params):
     db = params.db
     table_name = params.table_name
     url = params.url
-    csv_name = 'output.csv'
+    csv_name = './homework/taxi_zone_lookup.csv'
     
-    os.system(f"wget {url} -qO- | gzip -d > {csv_name}")
+    # os.system(f"wget {url} -qO- | gzip -d > {csv_name}")
     
     engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{db}')
 
@@ -22,8 +22,8 @@ def main(params):
 
     df = next(df_iter)
 
-    df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
-    df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
+    # df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
+    # df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
 
     df.head(n=0).to_sql(name=table_name, con=engine, if_exists='replace')
 
@@ -34,8 +34,8 @@ def main(params):
         
         df = next(df_iter)
         
-        df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
-        df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
+        # df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
+        # df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
         
         df.to_sql(name=table_name, con=engine, if_exists='append')
         
