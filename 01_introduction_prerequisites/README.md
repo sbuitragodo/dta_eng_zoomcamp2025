@@ -8,6 +8,7 @@ This module helped me to the following tasks:
 - Create a Python script to ingest data into the Postgres database in Docker.
 - Create a Dockerfile to run the python script in the container.
 - Create a docker-compose file to run interactively the database and pgadmin images using the same network.
+- Instantiate a GCP VM and connect to the repo to run docker and terraform from the machine.
 
 ### Helpful commands:
 - Connect to the db using pgcli
@@ -22,8 +23,11 @@ jupyter nbconvert --to=script nyc_data_exploration.ipynb
 ### Extensions for VSC
 - python
 - docker
+- terraform
+- ssh remote
 
 ### Notes:
 - I started setting the environment using git bash but I had issues (failed password) connecting to the db using pgcli.
 - I tried also using a previous setting with wsl and was able to follow most of the content. The dockerization of the python script gave me errors.
 - I finally decided to use Github Codespaces which was quite easy to set up and follow the content for this module.
+- I completed the homework using the GCP VM environment.
