@@ -10,7 +10,8 @@ What's the version of `pip` in the image?
 
 ### Solution:
 The pip version in the image is:
-`- 24.3.1`
+
+- `24.3.1`
 
 Command
 ```
@@ -23,7 +24,8 @@ Given the following `docker-compose.yaml`, what is the `hostname` and `port` tha
 
 ### Solution:
 The hostname and port in the connection are:
-`- db:5432`
+
+- `db:5432`
 
 Command
 ```
@@ -41,7 +43,8 @@ During the period of October 1st 2019 (inclusive) and November 1st 2019 (exclusi
 
 ### Solution
 5 segments "0-1, 1-3, 3-7, 7-10, over 10" during the required period with the following values:
-`- 104,802;  198,924;  109,603;  27,678;  35,189`
+
+- `104,802;  198,924;  109,603;  27,678;  35,189`
 
 Command
 ```
@@ -70,7 +73,7 @@ Which was the pick up day with the longest trip distance?
 Use the pick up time for your calculations.
 
 ### Solution
-`- 2019-10-31`
+- `2019-10-31`
 
 Command
 ```
@@ -90,7 +93,7 @@ Which were the top pickup locations with over 13,000 in
 Consider only `lpep_pickup_datetime` when filtering by date.
 
 ### Solution
-`- East Harlem North, East Harlem South, Morningside Heights`
+- `East Harlem North, East Harlem South, Morningside Heights`
 
 Command
 ```
@@ -115,7 +118,7 @@ Note: it's `tip` , not `trip`
 We need the name of the zone, not the ID.
 
 ### Solution
-`- JFK Airport`
+- `JFK Airport`
 
 Command
 ```
@@ -154,4 +157,4 @@ Which of the following sequences, **respectively**, describes the workflow for:
 3. Remove all resources managed by terraform`
 
 ### Solution
-`- terraform init, terraform apply -auto-approve, terraform destroy`
+- `terraform init, terraform apply -auto-approve, terraform destroy`
