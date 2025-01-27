@@ -8,8 +8,10 @@ You can get more information and register to the course [here](https://github.co
 ![Data Engineering Zoomcamp 2025 by DataTalksClub - technologies](/images/course_architecture.jpg)
 
 ## Zoomcamp Content
-- [Module 1: Introduction and prerequisites: Github Codespace, Docker, Terraform, Jupyter notebook, Postgres, Python](01_introduction_prerequisites/README.md)
-- Module 2: Workflow Orchestration
+- [Module 1: Introduction and prerequisites](01_introduction_prerequisites/README.md)
+  - Tech stack: Github Codespace, Docker, Terraform, Jupyter notebook, Postgres, Python, GCP VM
+  - [Homework](./01_introduction_prerequisites/homework/homework.md)
+- [Module 2: Workflow Orchestration](02_orchestration/README.md)
 - Workshop 1: dlt
 - Module 3: Data Warehouse
 - Module 4: Analytics Engineering
