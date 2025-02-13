@@ -1,6 +1,3 @@
-Original file is located at
-    https://colab.research.google.com/drive/1plqdl33K_HkVx0E0nGJrrkEUssStQsW7
-
 # **Workshop "Data Ingestion with dlt": Homework**
 
 ## **Question 1: dlt Version**
