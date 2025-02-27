@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: staging
-    database: "ny-rides-seb-2025"
-    schema: "ny_taxis_dataset"
+    database:  "{{ env_var('DBT_BIGQUERY_PROJECT', 'ny-rides-seb-2025') }}"
+    schema: "{{ env_var('DBT_BIGQUERY_SOURCE_DATASET', 'ny_taxis_dataset') }}"
       # loaded_at_field: record_loaded_at
     tables:
       - name: external_green_taxis_2019_2020
