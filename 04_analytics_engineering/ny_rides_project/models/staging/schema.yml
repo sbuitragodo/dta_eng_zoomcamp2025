@@ -8,6 +8,7 @@ sources:
     tables:
       - name: external_green_taxis_2019_2020
       - name: external_yellow_taxis_2019_2020
+      - name: external_fhv_taxis_2019
          # freshness:
            # error_after: {count: 6, period: hour}
 
