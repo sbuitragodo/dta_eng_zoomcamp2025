@@ -10,10 +10,10 @@ You can get more information and register to the course [here](https://github.co
 ## Zoomcamp Content
 - [Module 1: Introduction and prerequisites: Github Codespace, Docker, Terraform, Jupyter notebook, Postgres, Python](01_introduction_prerequisites/README.md)
 - [Module 2: Workflow Orchestration](02_orchestration/kestra/README.md)
-- Workshop 1: dlt
-- Module 3: Data Warehouse
-- Module 4: Analytics Engineering
-- Module 5: Batch Processing
+- [Workshop 1: dlt](workshop/dlt/README.md)
+- [Module 3: Data Warehouse](03_data_warehouse/README.md)
+- [Module 4: Analytics Engineering](04_analytics_engineering/README.md)
+- [Module 5: Batch Processing](05_batch_processing/README.md)
 - Module 6: Streaming
 - Workshop 2: RisingWave
 - Final Project
