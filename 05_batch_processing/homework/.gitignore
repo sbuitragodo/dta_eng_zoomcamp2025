@@ -1,0 +1,4 @@
+.ipynb_checkpoints/*
+/yellow_tripdata/*
+*.csv
+*.parquet
