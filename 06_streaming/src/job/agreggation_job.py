@@ -6,7 +6,7 @@ from pyflink.common.time import Duration
 def create_events_aggregated_sink(t_env):
     table_name = 'processed_events_aggregated'
     sink_ddl = f"""
-        CREATE TABLE {table_name} (
+        CREATE TABLE IF NOT EXISTS {table_name} (
             event_hour TIMESTAMP(3),
             test_data INT,
             num_hits BIGINT,

@@ -1,10 +1,11 @@
 import json
 import time 
 import pandas as pd
+import math
 from kafka import KafkaProducer
 
 def json_serializer(data):
-    return json.dumps(data).encode('utf-8')
+    return json.dumps(data, default=lambda x: None if isinstance(x, float) and math.isnan(x) else x).encode('utf-8')
 
 server = 'localhost:9092'
 

@@ -14,7 +14,7 @@ You can get more information and register to the course [here](https://github.co
 - [Module 3: Data Warehouse](03_data_warehouse/README.md)
 - [Module 4: Analytics Engineering](04_analytics_engineering/README.md)
 - [Module 5: Batch Processing](05_batch_processing/README.md)
-- Module 6: Streaming
+- [Module 6: Streaming](06_streaming/README.md)
 - Workshop 2: RisingWave
 - Final Project
 
